@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - PrintLaserStudio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBonDV3ITEj0UcFo5VrRJQSHjKcFyM3Hss&callback=initMap" async defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo de la empresa">
+			<span class="nombre-empresa">PrintLaserStudio</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="presupuesto.html">Presupuesto</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="contacto">
+            <h2>Contacto</h2>
+
+            
+            <div id="mapa"></div>
+
+            
+            <div id="info-contacto">
+                <h3>Información de Contacto</h3>
+                <p><strong>Dirección:</strong> Calle Real 33, Torrelodones, España</p>
+                <p><strong>Teléfono:</strong> +623 456 167</p>
+                <p><strong>Email:</strong> PrintLaserStudio@gmail.com</p>
+            </div>
+
+            
+            <div id="formulario-contacto">
+                <h3>Envíanos un Mensaje</h3>
+                <form id="formContacto">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        
+        <div class="direccion">
+            <p>Dirección: Calle Real 33, Torrelodones, España</p>
+        </div>
+    </footer>
+
+    <script src="js/contacto.js"></script>
+</body>
+</html>
